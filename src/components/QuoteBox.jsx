@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from './Button';
 
-const QuoteCard = ({ quote, setQuote, styleFormat, setStyleFormat, randomNumber}) => {
+const QuoteBox = ({quote, setQuote, styleFormat, setStyleFormat, randomNumber}) => {
     return (
         <div className='card'>
             <i className='bx-pull-left bx bxs-quote-alt-left bx-lg' />
@@ -16,4 +16,4 @@ const QuoteCard = ({ quote, setQuote, styleFormat, setStyleFormat, randomNumber}
     );
 };
 
-export default QuoteCard;
+export default QuoteBox;

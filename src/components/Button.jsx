@@ -3,7 +3,7 @@ import quotes from '../assets/quotes.json'
 import bgcolor from '../assets/backgrounds.json'
 
 const Button = ({ styleFormat, setQuote, setStyleFormat, randomNumber}) => {
-    const buttonColor = { backgroundColor: styleFormat.color }
+    const buttonBg = { backgroundColor: styleFormat.color} // para el formato del boton
     
     function randomQuote() {
         const randomFormatNumber = randomNumber(bgcolor)
@@ -15,7 +15,7 @@ const Button = ({ styleFormat, setQuote, setStyleFormat, randomNumber}) => {
     }
     return (
         <div>
-            <button onClick={randomQuote} className='primary-button' style={buttonColor}>
+            <button onClick={randomQuote} className='primary-button' style={buttonBg}>
                 <i className='bx bx-chevron-right bx-lg'></i></button>
         </div>
     );
