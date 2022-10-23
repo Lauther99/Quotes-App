@@ -1,0 +1,62 @@
+[
+    {
+        "backgroundImage": "linear-gradient(to left bottom, #8d0151, #9a246c, #a53c89, #ad52a5, #b268c2, #a17ddc, #8a91f0, #6ea4ff, #18b6ff, #00c4f7, #00cfe4, #3dd7cd)",
+        "fontcolor": "#8D0151"
+    },
+    {
+        "backgroundImage": "linear-gradient(to right top, #2f006d, #002574, #00326a, #003857, #003b45, #17484d, #2a5654, #3d635c, #4a8278, #57a395, #64c4b2, #71e7d1)",
+        "fontcolor": "#00394E"
+    },
+    {
+        "backgroundImage": "linear-gradient(to right top, #6600ed, #0070ff, #0097ff, #00b0d2, #00c3ac, #00cca2, #00d591, #01dc7c, #19e097, #37e3ae, #54e5c1, #71e7d1)",
+        "fontcolor": "#3F2BF4"
+    },
+    {
+        "backgroundImage": "linear-gradient(to right bottom, #3a1a65, #004a8e, #0072a5, #2298af, #70bbb7, #83cdb8, #9fddb7, #c0ecb5, #c4ed9b, #d0ed7d, #e3ea5b, #fbe433)",
+        "fontcolor": "#3A1A65"
+    },
+    {
+        "backgroundImage": "linear-gradient(to right top, #191337, #00345f, #00577a, #007982, #009a79, #00a573, #00af69, #00b95b, #00b377, #22ac8b, #49a495, #699a97)",
+        "fontcolor": "#191337"
+    },
+    {
+        "backgroundImage": "linear-gradient(to right top, #131111, #372923, #534730, #616c44, #5a946d, #58aa8c, #56c0af, #56d6d4, #75e0dd, #8fe9e6, #a8f3f0, #bffcf9)",
+        "fontcolor": "#131111"
+    },
+    {
+        "backgroundImage": "linear-gradient(to right top, #131111, #1d1717, #281d1c, #322321, #3d2926, #55372f, #6d4638, #84573f, #ab794a, #cd9f53, #e8ca5f, #f9f871)",
+        "fontcolor": "#4B312C"
+    },
+    {
+        "backgroundImage": "linear-gradient(to right top, #131111, #212020, #302e2e, #403e3e, #504e4e, #5f5d5d, #6f6d6d, #7f7d7d, #918f8f, #a4a2a2, #b7b5b5, #cbc9c9)",
+        "fontcolor": "#131111"
+    },
+    {
+        "backgroundImage": "radial-gradient(circle, #61baad, #15aab5, #0099bf, #0084c4, #006cbe, #045cb6, #174cac, #263ba0, #333197, #3b278d, #421b83, #470a78)",
+        "fontcolor": "#470A78"
+    },
+    {
+        "backgroundImage": "linear-gradient(to left top, #f9f871, #fee05e, #ffc851, #ffb04b, #ff9849, #f38443, #e56f3e, #d75b3a, #bd462c, #a3321e, #891c11, #700000)",
+        "fontcolor": "#700000"
+    },
+    {
+        "backgroundImage": "linear-gradient(to right top, #f6edd9, #dbe5c6, #b5dec0, #87d6c9, #59cbdb, #43b9ce, #2aa7c2, #0096b5, #007d87, #006258, #00472c, #002d00)",
+        "fontcolor": "#002D00"
+    },
+    {
+        "backgroundImage": "linear-gradient(to right top, #ffffff, #efeef5, #dfddeb, #d0cce2, #c0bcd8, #b0acc9, #a09cba, #918dac, #7e7a95, #6b687f, #595669, #474554)",
+        "fontcolor": "#474554"
+    },
+    {
+        "backgroundImage": "linear-gradient(to right top, #ffffff, #f4f6fb, #e5eef6, #d3e7ee, #c2e0e3, #bcdcd8, #bad8cb, #bbd2be, #c4ceb6, #cecab1, #d6c5af, #dcc1b2)",
+        "fontcolor": "#474554"
+    },
+    {
+        "backgroundImage": "linear-gradient(to right top, #00c6cf, #02b9c1, #04adb4, #05a0a6, #069499, #148a8e, #1b7f84, #207579, #286a6d, #2e6062, #315557, #324b4c)",
+        "fontcolor": "#068488"
+    },
+    {
+        "backgroundImage": "linear-gradient(to right top, #e3e0f3, #bacbe7, #86b8d5, #4ba6b8, #00938f, #008582, #007875, #006b69, #23616d, #3c5766, #484d57, #474747)",
+        "fontcolor": "#00754B"
+    }
+]
