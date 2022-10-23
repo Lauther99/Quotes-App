@@ -5,19 +5,16 @@ import bgcolor from './assets/backgrounds.json'
 import QuoteCard from './components/QuoteCard'
 
 function App() {
-  const [quote, setQuote] = useState(quotes[randomNumberQuotes()])
+
+  const randomFormatNumber = randomNumber(bgcolor)
+  const [quote, setQuote] = useState(quotes[randomNumber(quotes)])
   const [styleFormat, setStyleFormat] = useState({
-    backgroundImage: bgcolor[randomNumberFormat()].backgroundImage,
-    color: bgcolor[randomNumberFormat()].fontcolor
+    backgroundImage: bgcolor[randomFormatNumber].backgroundImage,
+    color: bgcolor[randomFormatNumber].fontcolor
   })
 
-  function randomNumberQuotes() {
-    const max = quotes.length - 1
-    const min = 0
-    return Math.floor(Math.random() * (max - min) + min);
-  }
-  function randomNumberFormat() {
-    const max = bgcolor.length - 1
+  function randomNumber(array) {
+    const max = array.length - 1
     const min = 0
     return Math.floor(Math.random() * (max - min) + min);
   }
@@ -27,9 +24,7 @@ function App() {
       <QuoteCard
         quote={quote} setQuote={setQuote}
         styleFormat={styleFormat} setStyleFormat={setStyleFormat}
-        randomNumber={randomNumberQuotes} 
-        randomNumberFormat =  {randomNumberFormat}/>
-
+        randomNumber={randomNumber}/>
     </div>
   )
 }

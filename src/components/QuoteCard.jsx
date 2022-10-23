@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from './Button';
 
-const QuoteCard = ({ quote, setQuote, styleFormat, setStyleFormat, randomNumber, randomNumberFormat}) => {
+const QuoteCard = ({ quote, setQuote, styleFormat, setStyleFormat, randomNumber}) => {
     return (
         <div className='card'>
             <i className='bx-pull-left bx bxs-quote-alt-left bx-lg' />
@@ -11,7 +11,7 @@ const QuoteCard = ({ quote, setQuote, styleFormat, setStyleFormat, randomNumber,
             </div>
             <Button setQuote={setQuote}
                 styleFormat={styleFormat} setStyleFormat={setStyleFormat}
-                randomNumber={randomNumber} randomNumberFormat={randomNumberFormat} />
+                randomNumber={randomNumber}/>
         </div>
     );
 };

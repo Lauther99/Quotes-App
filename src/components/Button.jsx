@@ -2,13 +2,15 @@ import React from 'react';
 import quotes from '../assets/quotes.json'
 import bgcolor from '../assets/backgrounds.json'
 
-const Button = ({ styleFormat, setQuote, setStyleFormat, randomNumber, randomNumberFormat }) => {
+const Button = ({ styleFormat, setQuote, setStyleFormat, randomNumber}) => {
     const buttonColor = { backgroundColor: styleFormat.color }
+    
     function randomQuote() {
-        setQuote(quotes[randomNumber()])
+        const randomFormatNumber = randomNumber(bgcolor)
+        setQuote(quotes[randomNumber(quotes)])
         setStyleFormat({
-            backgroundImage: bgcolor[randomNumberFormat()].backgroundImage,
-            color: bgcolor[randomNumberFormat()].fontcolor
+            backgroundImage: bgcolor[randomFormatNumber].backgroundImage,
+            color: bgcolor[randomFormatNumber].fontcolor
         })
     }
     return (
