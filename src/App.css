@@ -9,8 +9,8 @@
 .card{
   padding: 2rem;
   width: 90%;
-  max-width: 700px;
-  height: 300px;
+  max-width: 800px;
+  height: 370px;
   background-color: rgb(221, 218, 213);
   border: 5px solid;
   border-top-left-radius: 70px;
@@ -19,16 +19,23 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   position: relative;
   
+}
+
+.card .bx-lg{
+  align-self: flex-start;
 }
 
 .quote-line{
   width: 100%;
   text-align: center;
+  margin-right: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
-
 
 .primary-button{
   position: absolute;
@@ -36,7 +43,7 @@
   height: 50px;
   border-radius: 50%;
   border: none;
-  right: 60px;
+  right: 35px;
   bottom: 15px;
   display: flex;
   justify-content: center;
@@ -49,15 +56,63 @@
   box-shadow: 0 0 12px 0;
 }
 
-.quote-line{
-  margin-top: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
 .quote-line h1{
-  font-size: 20px;
+  font-size: 30px;
 }
 .quote-line h2{
+  font-size: 25px;
   text-align: left;
+}
+
+@media screen and (max-width: 726px){
+  .card{
+    height: 300px;
+  }
+
+  .quote-line h1{
+    font-size: 20px;
+  }
+  .quote-line h2{
+    font-size: 18px;
+    text-align: left;
+  }
+  .quote-line{
+    gap: 0.5rem
+  }
+}
+
+@media screen and (max-width: 490px){
+  .card{
+    height: 350px;
+  }
+
+  .quote-line h1{
+    font-size: 16px;
+  }
+
+  .quote-line h2{
+    font-size: 16px;
+    text-align: left;
+  }
+}
+
+
+@media screen and (max-width: 490px){
+  .card{
+    height: 500px;
+  }
+
+  .quote-line{
+    margin-left: -15px;
+  }
+
+  .quote-line h1{
+    font-size: 16px;
+  }
+
+  .quote-line h2{
+    font-size: 16px;
+    text-align: left;
+  }
+
 }

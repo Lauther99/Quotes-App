@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import quotes from './assets/quotes.json'
 import bgcolor from './assets/backgrounds.json'
